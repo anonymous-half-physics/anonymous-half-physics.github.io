@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Half-Physics: Enabling Kinematic 3D Human Model with Physical Interactions">
+  <meta name="keywords" content="Motion Generation, Music to Dance, GPT, VQVAE, Reinforcement Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Half-Physics: Enabling Kinematic 3D Human Model with Physical Interactions</title>
+
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Half-Physics: Enabling Kinematic 3D Human Model with Physical Interactions</h1>
+          <h2 class="title is-4 publication-title">Arxiv 2025</h2>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              Anonymous Submission 1262
+
+
+          
+          
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/imgs/hp_teaser3.gif" alt="Teaser GIF" style="height: 90%;">
+      <h2 class="subtitle has-text-centered">
+        Half Physics enables kinematical SMPL-X plysically interact with the environment
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            While current general-purpose 3D human models (e.g., SMPL-X) efficiently represent 
+            accurate human shape and pose, they lacks the ability to physically interact
+            with the environment due to the kinematic nature. As a result, kinematic-based
+            interaction models often suffer from issues such as interpenetration and unrealistic
+            object dynamics. To address this limitation, we introduce a novel approach that
+            embeds SMPL-X into a tangible entity capable of dynamic physical interactions
+            with its surroundings. Specifically, we propose a “half-physics” mechanism that
+            transforms 3D kinematic motion into a physics simulation. Our approach maintains
+            kinematic control over inherent SMPL-X poses while ensuring physically plausible
+            interactions with scenes and objects, effectively eliminating penetration and
+            unrealistic object dynamics. Unlike reinforcement learning-based methods, which
+            demand extensive and complex training, our half-physics method is learning-free
+            and generalizes to any body shape and motion; meanwhile, it operates in real
+            time. Moreover, it preserves the fidelity of the original kinematic motion while
+            seamlessly integrating physical interactions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          See Supplementary Video for keeping anonymous!
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class='section'>
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Human-Scene Interaction</h2>
+
+        <div>
+          <img src="./static/imgs/hsi1.gif" alt="Teaser GIF" style="height: 90%;">
+        </div>
+        <div>
+          <img src="./static/imgs/hsi2.gif" alt="Teaser GIF" style="height: 90%;">
+        </div>
+        <div>
+          <img src="./static/imgs/hsi4.gif" alt="Teaser GIF" style="height: 90%;">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class='section'>
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Human-Object Interaction</h2>
+
+        <div style="display: flex; gap: 10px; justify-content: center;">
+          <img src="./static/imgs/pick_fig.gif" alt="Teaser GIF" style="width: 47%;">
+          <img src="./static/imgs/lift_gif.gif" alt="Teaser GIF" style="width: 47%;">
+        </div>
+        <div>
+        <div style="display: flex; gap: 10px; justify-content: center;">
+          <img src="./static/imgs/toss_gif.gif" alt="Teaser GIF" style="width: 47%;">
+          <img src="./static/imgs/fk_gif.gif" alt="Teaser GIF" style="width: 47%;">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class='section'>
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Physical Factor Augmentation</h2>
+
+        <div>
+          <img src="./static/imgs/fk_mass_gif.gif" alt="Teaser GIF" style="height: 90%;">
+        </div>
+        
+        <div>
+          <img src="./static/imgs/lift_mass_gif.gif" alt="Teaser GIF" style="height: 90%;">
+        </div>
+        <div>
+          <img src="./static/imgs/lift_mu_gif.gif" alt="Teaser GIF" style="height: 90%;">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class='section'>
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Controllable Passive Joint Stiffness Compensition</h2>
+
+        <div>
+          <img src="./static/imgs/psjc_control.gif" alt="Teaser GIF" style="height: 90%;">
+        </div>
+     
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class='section'>
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">License</h2>
+        <div>
+		Code is released under MIT License.
+	    </div>
+      </div>
+    </div>
+  </div>
+</section>   
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The website template was borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
